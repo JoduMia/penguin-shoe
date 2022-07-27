@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    padding: 6rem 0;
+}
+@media only screen and (max-width: 350px) {
+    .nav-image img {
+        width: 150px !important;
+    }
+    .penicon {
+        width: 1.4rem !important;
+        height: 1.4rem !important;
+    }
+    .penguin-buy-button {
+        font-size: .8rem !important;
+        padding: .3rem .5rem !important;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .banner-heading {
+        font-size: 2rem;
+        line-height: 1;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .banner-heading {
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .banner-heading {
+        font-size: 3rem;
+        line-height: 1;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .banner-heading {
+        font-size: 4rem;
+        line-height: 1;
+    }
+
+}
